@@ -14,6 +14,11 @@ LD34.Preload.prototype = {
     
         this.load.image('tiles', 'assets/images/tiles.png');
         
+        this.load.image('head', 'assets/images/head.png');
+        this.load.image('body', 'assets/images/body.png');
+        this.load.image('food', 'assets/images/food.png');
+        this.load.image('projectile', 'assets/images/projectile.png');
+        
         // this is used for the framerate counter
         this.time.advancedTiming = true;
     },

@@ -13,6 +13,8 @@ LD34.Boot.prototype = {
         this.scale.setUserScale(2, 2);
         this.scale.scaleMode = Phaser.ScaleManager.USER_SCALE;
         Phaser.Canvas.setImageRenderingCrisp(this.game.canvas);
+        
+        this.physics.startSystem(Phaser.Physics.ARCADE);
     },
     
     create: function ()

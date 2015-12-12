@@ -2,6 +2,7 @@
 
 var LD34 = {
     
+    TILESIZE: 16
 };
 
 window.onload = function ()
