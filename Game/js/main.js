@@ -6,7 +6,7 @@ var LD34 = {
 
 window.onload = function ()
 {
-    var game = new Phaser.Game(640, 480, Phaser.CANVAS, 'gameContainer');
+    var game = new Phaser.Game(320, 240, Phaser.CANVAS, 'gameContainer');
 
     game.state.add('boot', LD34.Boot);
     game.state.add('preload', LD34.Preload);

@@ -10,7 +10,8 @@ LD34.Boot.prototype = {
     preload: function ()
     {
         this.scale.pageAlignHorizontally = true;
-        
+        this.scale.setUserScale(2, 2);
+        this.scale.scaleMode = Phaser.ScaleManager.USER_SCALE;
         Phaser.Canvas.setImageRenderingCrisp(this.game.canvas);
     },
     
